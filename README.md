@@ -121,7 +121,7 @@ Our model fixes this by predicting time slots using intelligent data analysis an
                                  V
                                [STOP]
 
-
+## All copy rights is reserved to this image
 ## 🛠️ Getting Started
 
 ### 1. Clone the repo
@@ -175,6 +175,8 @@ Thanks to SIH mentors and coordinators for their support!
 ## 📄 License
 
 This project is under the **MIT License**. See the [LICENSE](LICENSE) file for more info.
+© 2025 Ashmita Sen Roy
+
 
 ---
 
