@@ -39,8 +39,91 @@ Our model fixes this by predicting time slots using intelligent data analysis an
 
 ## 🧠 Architecture
 
-![Postal Delivery Management Flowchart](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABgAAAAQACAIAAACoEwUVAADYY2NhQlgAANhjanVtYgAAAB5qdW1kYzJwYQARABCAAACqADibcQNjMnBhAAAANxNqdW1iAAAAR2p1bWRjMm1hABEAEIAAAKoAOJtxA3VybjpjMnBhOmEzM2QzMTc0LTQwOGMtNDk4ZC1iNmNkLTIxNjQyMzQwNzJmYgAAAAHhanVtYgAAAClqdW1kYzJhcw...
++---------------------------------------------------------------------------------+
+|                         SYSTEM ARCHITECTURE & DATA FLOW                         |
++---------------------------------------------------------------------------------+
 
+                                    [START]
+                                       |
+                                       V
+                          +-------------------------+
+                          |  User-Facing Web Portal |
+                          +-------------------------+
+                                       |
+                   +-------------------+-------------------+
+                   |                                       |
+    // --- SENDER's JOURNEY ---                        // --- RECIPIENT's JOURNEY ---
+                   |                                       |
+                   V                                       V
+      +----------------------------+          +-----------------------------+
+      | 1. Sender Enters Ref. No.  |          | 1a. Recipient Enters Ref. No|
+      +----------------------------+          +-----------------------------+
+                   |                                       |
+                   V                                       V
+      +----------------------------+          +-----------------------------+
+      | 2. AI Model Predicts Time  |          | 2a. Track & View Time       |
+      +----------------------------+          +-----------------------------+
+                   |                                       |
+                   V                                       V
+      <   3. Sender Satisfied?   >          <   3a. Recipient Satisfied?  >
+            |              |                      |               |
+       YES  |              |  NO             YES  |               |  NO
+            |              |                      |               |
+            |       +---------------------+       |        +----------------------+
+            |       | Proposes New Time   |       |        | Proposes New Time    |
+            |       +---------------------+       |        +----------------------+
+            |              |                      |               |
+            |              V                      |               V
+            |       < AI Re-evaluates >           |        < AI Re-evaluates >
+            |              |                      |               |
+            +--------------+----------------------)---------------+--------------+
+                                       |
+                                       V
+                  +-----------------------------------------+
+                  |  4. SCHEDULING & BACKEND CONFIRMATION   |
+                  +-----------------------------------------+
+                                       |
+      <<============== Writes & Reads =============>>
+    +-----------------------------------------------------+
+    |                  D A T A B A S E                    |
+    | (User Info, Historical Success Rates, Preferences)  |
+    +-----------------------------------------------------+
+      <<===============================================>>
+                                       |
+                                       V
+                     // --- PORTAL OFFICE's WORKFLOW ---
+
+                  +-----------------------------------------+
+                  |  5. View Confirmed Schedule on Dashboard|
+                  +-----------------------------------------+
+                                       |
+                                       V
++---------------------------------------------------------------------------------+
+|         6. OPTIMIZE ROUTE (optimize_route.py using Google OR-Tools)             |
++---------------------------------------------------------------------------------+
+                                       |
+                                       V
+                          +-------------------------+
+                          |  7. Assign Route to Staff   |
+                          +-------------------------+
+                                       |
+                                       V
+                           < Can Delivery Be Made? >
+                                 |         |
+                            YES  |         | NO
+                                 |         |
+                                 V         +-----> (Reschedule Within Range)
+                     +---------------------+
+                     | 8. DELIVERY SUCCESSFUL|
+                     +---------------------+
+                                 |
+                                 V
+                     +---------------------+
+                     | 9. Collect User Rating|-----> (Update Database w/ New Data)
+                     +---------------------+
+                                 |
+                                 V
+                               [STOP]
 ---
 
 ## 🛠️ Getting Started
