@@ -39,9 +39,7 @@ Our model fixes this by predicting time slots using intelligent data analysis an
 
 ## 🧠 Architecture
 
-+---------------------------------------------------------------------------------+
-|                         SYSTEM ARCHITECTURE & DATA FLOW                         |
-+---------------------------------------------------------------------------------+
+                       SYSTEM ARCHITECTURE & DATA FLOW                         
 
                                     [START]
                                        |
@@ -98,9 +96,7 @@ Our model fixes this by predicting time slots using intelligent data analysis an
                   +-----------------------------------------+
                                        |
                                        V
-+---------------------------------------------------------------------------------+
-|         6. OPTIMIZE ROUTE (optimize_route.py using Google OR-Tools)             |
-+---------------------------------------------------------------------------------+
+        6. OPTIMIZE ROUTE (optimize_route.py using Google OR-Tools)             
                                        |
                                        V
                           +-------------------------+
@@ -124,7 +120,7 @@ Our model fixes this by predicting time slots using intelligent data analysis an
                                  |
                                  V
                                [STOP]
----
+
 
 ## 🛠️ Getting Started
 
