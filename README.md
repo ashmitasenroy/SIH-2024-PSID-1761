@@ -39,11 +39,7 @@ Our model fixes this by predicting time slots using intelligent data analysis an
 
 ## 🧠 Architecture
 
-Below is the system architecture explaining how everything connects:
-
-![Architecture](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAWgAAAFoCAYAAACAoUibAA...) <!-- Base64 continues -->
-
-> ✨ Note: This diagram is embedded directly, no separate assets needed.
+![Postal Delivery Management Flowchart](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABgAAAAQACAIAAACoEwUVAADYY2NhQlgAANhjanVtYgAAAB5qdW1kYzJwYQARABCAAACqADibcQNjMnBhAAAANxNqdW1iAAAAR2p1bWRjMm1hABEAEIAAAKoAOJtxA3VybjpjMnBhOmEzM2QzMTc0LTQwOGMtNDk4ZC1iNmNkLTIxNjQyMzQwNzJmYgAAAAHhanVtYgAAAClqdW1kYzJhcw...
 
 ---
 
