@@ -1,0 +1,170 @@
+[
+    {
+        "reference_number": "REF001",
+        "latitude": 31.1048,
+        "longitude": 77.1734,
+        "description": "Shimla, Himachal Pradesh"
+    },
+    {
+        "reference_number": "REF002",
+        "latitude": 30.7333,
+        "longitude": 76.7794,
+        "description": "Chandigarh, Punjab & Haryana"
+    },
+    {
+        "reference_number": "REF003",
+        "latitude": 30.3165,
+        "longitude": 78.0322,
+        "description": "Dehradun, Uttarakhand"
+    },
+    {
+        "reference_number": "REF004",
+        "latitude": 28.6139,
+        "longitude": 77.2090,
+        "description": "New Delhi, Delhi"
+    },
+    {
+        "reference_number": "REF005",
+        "latitude": 27.3300,
+        "longitude": 88.6200,
+        "description": "Gangtok, Sikkim"
+    },
+    {
+        "reference_number": "REF006",
+        "latitude": 27.1000,
+        "longitude": 93.6200,
+        "description": "Itanagar, Arunachal Pradesh"
+    },
+    {
+        "reference_number": "REF007",
+        "latitude": 26.9124,
+        "longitude": 75.7873,
+        "description": "Jaipur, Rajasthan"
+    },
+    {
+        "reference_number": "REF008",
+        "latitude": 26.8467,
+        "longitude": 80.9462,
+        "description": "Lucknow, Uttar Pradesh"
+    },
+    {
+        "reference_number": "REF009",
+        "latitude": 26.1445,
+        "longitude": 91.7362,
+        "description": "Dispur, Assam"
+    },
+    {
+        "reference_number": "REF010",
+        "latitude": 25.6747,
+        "longitude": 94.1100,
+        "description": "Kohima, Nagaland"
+    },
+    {
+        "reference_number": "REF011",
+        "latitude": 25.5941,
+        "longitude": 85.1376,
+        "description": "Patna, Bihar"
+    },
+    {
+        "reference_number": "REF012",
+        "latitude": 25.5788,
+        "longitude": 91.8933,
+        "description": "Shillong, Meghalaya"
+    },
+    {
+        "reference_number": "REF013",
+        "latitude": 24.8170,
+        "longitude": 93.9368,
+        "description": "Imphal, Manipur"
+    },
+    {
+        "reference_number": "REF014",
+        "latitude": 23.8315,
+        "longitude": 91.2868,
+        "description": "Agartala, Tripura"
+    },
+    {
+        "reference_number": "REF015",
+        "latitude": 23.7271,
+        "longitude": 92.7176,
+        "description": "Aizawl, Mizoram"
+    },
+    {
+        "reference_number": "REF016",
+        "latitude": 23.3441,
+        "longitude": 85.3096,
+        "description": "Ranchi, Jharkhand"
+    },
+    {
+        "reference_number": "REF017",
+        "latitude": 23.2599,
+        "longitude": 77.4126,
+        "description": "Bhopal, Madhya Pradesh"
+    },
+    {
+        "reference_number": "REF018",
+        "latitude": 23.2156,
+        "longitude": 72.6369,
+        "description": "Gandhinagar, Gujarat"
+    },
+    {
+        "reference_number": "REF019",
+        "latitude": 22.5726,
+        "longitude": 88.3639,
+        "description": "Kolkata, West Bengal"
+    },
+    {
+        "reference_number": "REF020",
+        "latitude": 21.2514,
+        "longitude": 81.6296,
+        "description": "Raipur, Chhattisgarh"
+    },
+    {
+        "reference_number": "REF021",
+        "latitude": 16.5062,
+        "longitude": 80.6480,
+        "description": "Amaravati, Andhra Pradesh"
+    },
+    {
+        "reference_number": "REF022",
+        "latitude": 20.2961,
+        "longitude": 85.8245,
+        "description": "Bhubaneswar, Odisha"
+    },
+    {
+        "reference_number": "REF023",
+        "latitude": 18.5204,
+        "longitude": 73.8567,
+        "description": "Pune, Maharashtra"
+    },
+    {
+        "reference_number": "REF024",
+        "latitude": 17.3850,
+        "longitude": 78.4867,
+        "description": "Hyderabad, Telangana"
+    },
+    {
+        "reference_number": "REF025",
+        "latitude": 15.4909,
+        "longitude": 73.8278,
+        "description": "Panaji, Goa"
+    },
+    {
+        "reference_number": "REF026",
+        "latitude": 13.0827,
+        "longitude": 80.2707,
+        "description": "Chennai, Tamil Nadu"
+    },
+    {
+        "reference_number": "REF027",
+        "latitude": 12.9716,
+        "longitude": 77.5946,
+        "description": "Bengaluru, Karnataka"
+    },
+    {
+        "reference_number": "REF028",
+        "latitude": 8.5241,
+        "longitude": 76.9366,
+        "description": "Thiruvananthapuram, Kerala"
+    }
+]

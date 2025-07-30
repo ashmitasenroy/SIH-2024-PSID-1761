@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box; 
+ }
+
+
+.navbar {
+    height: 60px;
+    background-color: rgba(156, 210, 234, 1);
+    color: rgb(29, 25, 25);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navlogo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    height: 100%;
+    background-image: url(logo1.png);
+    background-size: cover;
+    width: 100%;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid white;
+}
+
+/**box2*/
+.addfirst {
+    color: #272020;
+    font-size: 1rem;
+    margin-left: 15px;
+}
+.addfirst i{
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+.addsec {
+    font-size: 1rem;
+    margin-left: 15px;
+    font-weight: 600;
+}
+
+.addlogo {
+    display: flex;
+    align-items: center;
+}
+
+/**box3*/
+.navsearch {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(175, 196, 231);
+    height: 40px;
+    width: 620px;
+    border-radius: 4px;
+    position: relative;  /* Added to keep the boxes together */
+}
+
+.navsearch:hover {
+    border: 4px solid rgb(180, 191, 221);
+}
+
+.one {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    background-color: #C0C0C0;
+    width: 50px;
+    text-align: center;
+}
+
+.two {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.searchicon {
+    width: 45px;
+    display: flex;
+    align-items: center;  /* Changed from align-content to align-items */
+    justify-content: center;
+    background-color: #aadbeb;
+    font-size: 1.2rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+#pub {
+    align-self: center;
+}
+
+/**box4*/
+span {
+    font-size: 0.85rem;
+}
+
+.navsecond {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-right: 25px;
+    padding-right: 2px ;
+}
+
+/**box6*/
+.navcart i {
+    font-size: 20px;
+
+}
+
+.navcart {
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+/*panel*/
+.panel{
+    width: 100%;
+    height: 40px;
+    background-color: hsl(211, 97%, 77%);
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    
+}
+.all{
+    align-self: center;
+    font-weight: 700;
+
+}
+.tpanel{
+    display: flex;
+    align-items: center;
+    justify-items: space-evenly;
+    width: 70%;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+.tpanel p{
+    margin-left: 20px;
+}
+.lpanel{
+    align-self: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-top: 15px;
+
+}
+.lpanel i{
+    height: 35px;
+    width: 30px;
+    cursor: pointer;
+    font-weight: 700;
+}
+/**hero sec*/
+.hero{
+    background-image: url(hero1.png);
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 0.85rem;
+
+    
+    
+}
+.message{
+    background-color: white;
+    color: black;
+    font-size: 0.85rem;
+    height: 40px;
+    width: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 35px;
+    border: 2px solid rgb(243, 77, 107);
+
+}
+.message a{
+    color: #007185;
+
+}
+.reference-section {
+    margin: 20px auto;
+    width: calc(100% - 220px);
+    height: 400px;
+    padding: 70px;
+    background-color: #E6787Bff;
+    text-align: center;
+    border: 2px solid rgb(248, 70, 70);
+}
+
+.reference-box {
+    border: 2px solid rgb(6, 1, 21);
+    display: inline-block;
+    padding: 70px;
+    background-color: white;
+    margin-top: 15px;
+
+}
+
+.reference-box input[type="text"] {
+    width: 400px;
+    height: 100px;
+    padding: 30px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(248, 70, 70);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.reference-box button {
+    padding: 10px 20px;
+    background-color: #d04141;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.reference-box button:hover {
+    background-color: #788BFF;
+}
+
+
+/**footer*/
+.panel1{
+    background-color: rgba(156, 205, 143, 1);
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-right: 3px;
+}
+footer{
+    margin-top: 15px;
+}
+.panell{
+    display: flex;
+    align-items: center;
+    color: rgb(250, 248, 248);
+    background-color: rgba(156, 210, 234, 1);
+    justify-content: space-evenly;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.logop{
+    background-image: url(logo2.jpeg);
+    background-size: contain;
+    height: 75px;
+    width: 75px;
+}
+.logop2{
+    background-image: url(Llogo3.png);
+    background-size: contain;
+    height: 75px;
+    width: 75px;
+
+    
+}
+ul{
+    margin-top: 20px;
+    align-content: center;
+}
+ul a{
+    display: block;
+    margin-top: 10px;
+    font-size: 0.85rem;
+    color: #ffffff;
+
+
+}
+.panel4{
+    background-color:rgba(156, 205, 143, 1);
+    color: white;
+    height: 80px;
+    font-size: 0.81rem;
+    text-align: center;
+    
+    
+    
+}
+.pages{
+   padding-top: 25px;
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+    font-weight: 500;
+   
+}
+.copy{
+padding-top: 5px;
+font-weight: 500;
+}
